@@ -1,0 +1,69 @@
+header {
+    float:left;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 10px;
+    text-align: left;
+}
+
+div {
+    margin: 30px;
+}
+
+
+div.scroll {
+  background-color: rgb(255, 243, 176);
+  width: 40px;
+  overflow-x: scroll;
+}
+
+div.hidden {
+  background-color: rgb(255, 243, 176);
+  width: 40px;
+  overflow-x: hidden;
+}
+
+div.auto {
+  background-color: rgb(255, 243, 176);
+  width: 40px;
+  overflow-x: auto;
+}
+
+div.visible {
+  background-color: rgb(255, 243, 176);
+  width: 40px;
+  overflow-x: visible;
+}
+
+div.scrolly {
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+div.hiddeny {
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;  
+  overflow-y: hidden;
+}
+
+div.autoy {
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;  
+  overflow-y: auto;
+}
+
+div.visibley{
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;  
+  overflow-y: visible;
+}
+

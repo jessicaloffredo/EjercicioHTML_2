@@ -1,0 +1,44 @@
+header {
+    float:left;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+}
+
+#main div {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+}
+
+#div1 {
+  background-color:coral; 
+  opacity: 0.5;
+  font-size-adjust: 0.58;
+}
+
+#div2 {
+  background-color:lightblue;
+  opacity: 0.2;
+  font-size-adjust: 0.98;
+ }
+
+#div3 {
+  background-color:lightgreen; 
+  opacity: 0.1;
+}
+
+

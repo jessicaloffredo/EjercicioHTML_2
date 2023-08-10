@@ -1,0 +1,146 @@
+header {
+    float:left;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 10px;
+    text-align: left;
+}
+
+nav {
+    margin-top: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+ul.menu {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+ul.menu li {
+    float: left;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#contenedor {
+    border: 2px;
+    border-style: solid;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    float: left;
+    border: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: end;
+}
+
+div.overflow {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+  }
+
+  h3.txtshw {
+    text-shadow: 2px 2px lightcoral;
+  }
+
+ div.wrap {
+    word-wrap: break-word;
+    width: 150px; 
+    border: 1px solid #000000;
+ }
+
+ div.rotate {
+    width: 150px;
+    height: 80px;
+    background-color: lightblue;
+    transform: rotate(10deg);
+  }
+  
+  div.skew {
+    width: 150px;
+    height: 80px;
+    background-color: purple;
+    transform: skewY(20deg);
+  }
+  
+  div.scale {
+    width: 150px;
+    height: 80px;
+    background-color: grey;
+    transform: scaleY(1.0);
+  }
+
+  div.translate {
+    width: 150px;
+    height: 80px;
+    background-color: lightpink;
+    transform: translate(20px,10px);
+  }
+
+  div.matrix {
+    width: 150px;
+    height: 80px;
+    background-color: lightseagreen;
+    transform: matrix(0.586,0.8,-0.8,0.586,0,0);
+  }
+
+  #perspective1 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    border: 1px solid orchid;
+    perspective: 100px;
+  }
+  
+  #perspective2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background: rgba(100,100,100,0.5); 
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+  }
+
+  #origin1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  #origin2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: olivedrab;
+    transform: rotate(60deg);
+    transform-origin: 20% 40%;
+  }

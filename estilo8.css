@@ -1,0 +1,108 @@
+header {
+    float:left;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 10px;
+    text-align: left;
+}
+
+nav {
+    margin-top: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+ul.menu {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+ul.menu li {
+    float: left;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#contenedor {
+    border: 2px;
+    border-style: solid;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    float: left;
+    border: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: end;
+}
+
+div.transition {
+  width: 100px;
+  height: 100px;
+  background: lightskyblue;
+  transition: width 4s;
+}
+
+div.transition:hover {
+  width: 300px;
+}
+
+#boxingsize {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;  
+  border: 10px solid yellow;
+}
+
+#boxingsize2 {
+  box-sizing: content-box;  
+  width: 300px;
+  height: 100px;
+  padding: 30px;  
+  border: 10px solid yellowgreen;
+}
+
+div.outoff1 {
+  margin: 20px;
+  border: 1px solid black;
+  background-color: yellow;
+  outline: 7px solid pink;
+  outline-offset: 20px;
+} 
+
+div.outoff2 {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: yellow;
+  outline: 10px dotted crimson;
+  outline-offset: 5px;
+} 
+
+div.resize {
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
+}

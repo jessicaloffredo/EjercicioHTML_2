@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P&aacute;gina HTML curso Master Full Stack es. REC010477</title>
+        <link rel="stylesheet" type="text/css" href="estilo2.css" media="screen"/>
+    </head>
+
+    <body>
+        <header>
+            <img src="html5.png" alt="HTML 5" name="img_html" align="left" height="50px" width="80px">
+            <h2>Ejercicio HTML5: nueva estructura web</h2>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li>Home page</li>
+                <li>Game</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+        <div id="contenedor">
+            <article class="article">
+                <section>
+                    <hgroup>
+                        <h1>Master Full Stack Developer</h1>
+                        <h4>HTML &amp; CSS</h4>
+                    </hgroup>
+                    
+                    <form action="#" method="post" autocomplete="on" novalidate>
+                        <fieldset>
+                            <legend>Select your langauge</legend>
+                        
+                            <input list="sugerencias">
+                            <datalist id="sugerencias">
+                                <option label="Es" value="Espa&ntilde;ol">
+                                <option label="En" value="Ingl&eacute;s">
+                                <option label="Fr" value="Franc&eacute;s">
+                            </datalist>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Personal information:</legend>
+                                Name: <input type="text" required><br><br>
+                                Surname: <input type="text" required><br><br>
+                                Address: <input type="text"><br><br>
+                                <form action="/action_page.php">
+                                    <label for="country_code">Country code:</label>
+                                    <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+                                  </form>
+                                  Email: <input type="email" name="email" placeholder="ex. jess@dominio.com">
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Login details:</legend>
+                                    <label for="site-search">Search the username:</label>
+                                    <input type="search" id="username-search" name="q" />
+                
+                                    <button>Search</button>
+                                    <br><br>
+                                    Username:<input type="text" id="username" name="username" disabled><br><br>
+                        <!-- añadimos el campo de typo keygen -->
+                        Generar una Password:<keygen name="password"> 
+                        <input type="submit" value="Generar">
+                        <p>Choose your avatar's colors:</p>
+
+                        <div>
+                            <input type="color" id="head" name="head" value="#e66465" />
+                            <label for="head">Head</label>
+                        </div>
+
+                        <div>
+                        <input type="color" id="body" name="body" value="#f6b73c" />
+                        <label for="body">Body</label>
+                        </div>
+
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Submit">
+                   
+                    </form>
+                </section>
+            </article>
+            <aside class="aside">
+                <p>Uso de la etiqueta output y de los atributos min y max</p>
+                <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+                    (1-5)<input type="number" id="valor1" value="0" min="1" max="5"> +
+                    (10-500)<input type="number" id="valor2" value="0" min="10" max="500"> =
+                    <mark><output name="resultado" for="valor1 valor2"></output></mark>
+                </form>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Jessica Loffredo: Ejercicio 1 modulo 3 HTML &amp; CSS</p>
+        </footer>
+    </body>
+</html>

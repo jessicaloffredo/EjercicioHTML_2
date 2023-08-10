@@ -1,0 +1,139 @@
+header {
+    float:left;
+    height: 15%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 10px;
+    text-align: left;
+}
+
+div {
+    margin: 30px;
+}
+
+
+#div1 {
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 50px;
+    background: #f92672;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: width 1s, background 1s;
+    -moz-transition: width 1s, background 1s;
+    -o-transition: width 1s, background 1s;
+    transition: width 1s, background 1s;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div1:hover {
+    width: 300px;
+    background: #428bca;
+}
+
+#behind {
+    border: 10px dotted blueviolet;
+    padding: 15px;
+    background: rgb(28, 66, 78);
+    background-clip: border-box;  
+    float: left;
+  }
+  
+  #padding {
+    border: 10px dotted rgb(219, 25, 25);
+    padding: 15px;
+    background: rgb(215, 241, 50);
+    background-clip: padding-box;
+    float: left;
+  }
+  
+  #edge {
+    border: 10px dotted rgb(133, 64, 125);
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+    float: left;
+
+  }
+
+#upperleftpadding {
+    border: 10px dashed rgb(144, 45, 45);
+    padding: 25px;
+    background: url(color.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    color: black;
+    float: left;
+  }
+  
+  #upperleftborder {
+    border: 10px dashed rgb(172, 214, 36);
+    padding: 25px;
+    background: url(color.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    color: black;
+    float: left;
+  }
+  
+  #upperleftcontent {
+    border: 10px dashed rgb(82, 26, 165);
+    padding: 25px;
+    background: url(color.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    color: black;
+    float: left;
+  }
+
+  #auto {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(vesuvio.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: left;
+  }
+  
+  #medida {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(vesuvio.png);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    float: left;
+    color: white;
+  }
+
+  #fondos{
+    background: url(fondo3.png) bottom right no-repeat, 
+    url(fondo2.png) center no-repeat, 
+    url(fondo1.png) center repeat;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#boxshadow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    border-radius: 50px 20px;
+  }
+
+  #borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+  }
+  
+  
